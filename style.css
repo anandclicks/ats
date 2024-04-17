@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+}
+p {
+    font-size: 20px;
+}
+.page1 {
+    height: 75%;
+    background-color: #3682D8;
+    position: relative;
+}
+.page1-left, .page1-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1-right  {
+    justify-content: start;
+}
+
+.logobox {
+    height: 130px;
+    width: 220px;
+    background-image: url("https://www.ceipal.com/wp-content/uploads/2022/09/CEIPAL-logo-horiz-white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.texts {
+    color: #fff;
+}
+.texts h1 {
+    font-weight: 600;
+    font-size: 53px;
+}
+
+.formbox {
+    height: 550px;
+    width: 470px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url("https://www.ceipal.com/wp-content/uploads/2018/11/pattern_light_top-left.svg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+label {
+    font-size: 13px;
+}
+textarea {
+    height: 80px;
+    width: 100%;
+}
+/* shape dividar css  */
+.custom-shape-divider-bottom-1713338167 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713338167 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-bottom-1713338167 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+.submit {
+    background-color: #FFC543;
+}
+.page2{
+    height: 65%;
+    background-color: #ffffff;
+}
+.page2-boxes {
+    height: 90%;
+}
+.boxes {
+    height: 350px;
+    border: 1px solid #dadada;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxes p {
+    font-size: 18px;
+
+}
+.boxes img {
+    height: 150px;
+}
+.page3{
+    height: 60%;
+    
+}
+
+.page3-text, .page3-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page3-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.page3-text .text p {
+    font-size: 16px;
+}
+.text{
+    width: 70%;
+}
+.page3-img img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+.page4-vid video {
+    width: 100%;
+}
+.page5-text .text {
+    width: 100%;
+}
+.page6-text .text {
+    width: 100%;
+}
+.footer{
+    background-color: #3682D8;
+    background-image: url("https://www.ceipal.com/wp-content/uploads/2020/10/abstract-banner-01.svg");
+    background-size: cover;
+    background-position: center;
+}
+.footer h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+@media (max-width : 600px) {
+    .page1 {
+        height:140% ;
+        position: relative;
+        background-color: #3682D8;
+        overflow: scroll;
+    }
+    .page1-left {
+        height: 30%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 40px 25px;
+    }
+    .page1-right{
+        height: 70%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 40px 25px;
+    }
+    .texts h1 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .texts p {
+        font-size: 20px;
+    }
+    .formbox {
+        height: 720px;
+    }
+    .page2{
+        height: 180%;
+    }
+    .page3{
+        height:100%;
+        
+    }
+    .page3-text, .page3-img {
+        height: 50%;
+        display: flex;
+        align-items: start;
+    }
+    .page3-img img {
+        height: 400px;
+        width: 400px;
+    }
+    .text {
+        width: 100%;
+    }
+    .page4-text {
+        height: 70%;
+    }
+    .page4-vid {
+        height: 30%;
+    }
+}
